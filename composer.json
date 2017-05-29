@@ -1,0 +1,48 @@
+{
+  "name": "omnipay/paymentexpress-a2a",
+  "type": "library",
+  "description": "Payment Express (DPS) A2A (Account 2 Account) driver for the Omnipay payment processing library",
+  "keywords": [
+    "direct payment solutions",
+    "dps",
+    "a2a",
+    "account 2 account",
+    "pxpay 2.0",
+    "gateway",
+    "merchant",
+    "omnipay",
+    "pay",
+    "payment express",
+    "payment",
+    "paymentexpress",
+    "pxaccess",
+    "pxpay",
+    "pxpost"
+  ],
+  "homepage": "https://github.com/thephpleague/omnipay-paymentexpress",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sidharta Bachtiar",
+      "email": "sid.bachtiar@gmail.com"
+    },
+    {
+      "name": "Omnipay Contributors",
+      "homepage": "https://github.com/thephpleague/omnipay-paymentexpress/contributors"
+    }
+  ],
+  "autoload": {
+    "psr-4": { "Omnipay\\PaymentExpress\\" : "src/" }
+  },
+  "require": {
+    "omnipay/common": "~2.0"
+  },
+  "require-dev": {
+    "omnipay/tests": "~2.0"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0.x-dev"
+    }
+  }
+}
