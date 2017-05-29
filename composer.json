@@ -1,5 +1,5 @@
 {
-  "name": "omnipay/paymentexpress-a2a",
+  "name": "onlinesid/omnipay-paymentexpress-a2a",
   "type": "library",
   "description": "Payment Express (DPS) A2A (Account 2 Account) driver for the Omnipay payment processing library",
   "keywords": [
